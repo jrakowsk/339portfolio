@@ -1,10 +1,11 @@
-
+.nav_links .gallerylink {
+  font-weight: bold;
+}
 body{
   font-family: 'Raleway', sans-serif; 
   margin: 0;
   padding: 0;
   font-size: 1em; 
-  /*background-image: url('../images/concrete_seamless.png');*/
 }
 
 h1{
@@ -177,6 +178,7 @@ header{
 .nav_item a:hover, a:focus{
   color: #FFDE59;
   text-decoration: underline;
+  font-weight: bold;
   -webkit-text-decoration-style: dotted;
           text-decoration-style: dotted;
 }

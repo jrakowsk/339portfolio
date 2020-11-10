@@ -1,8 +1,8 @@
 
 body{
   font-family: 'Raleway', sans-serif; 
-  margin: 0;
-  padding: 0;
+  margin: 1em;
+  padding: 1em;
   font-size: 1em; 
   /*background-image: url('../images/concrete_seamless.png');*/
 }
@@ -13,7 +13,7 @@ h1{
   line-height: 2;
 }
 
-h2{
+h3{
   font-size: 1.5em;
   text-align: center;
   padding: 5px;
@@ -23,6 +23,20 @@ p {
   padding: 0 30px;
 }
 
+.blog{
+  border: 10px #FFDE59 solid;
+  margin: 1em;
+  padding: 1em;
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.blog > img{
+  border: 10px #FFDE59 solid;
+  margin: 10px;
+  width: 300px;
+}
 a.skip{
   background: white;
   left: 0;
@@ -69,7 +83,13 @@ footer{
    /*Your code here.*/
    animation: logo_wiggle 15s;
 }
-
+main .blog{
+  border: 10px #FFDE59 solid;
+  border-left: 10px #FFDE59 solid;
+  margin: 10px;
+  width: 300px;
+ 
+}
 /* Cards! */
 .pricing{
     min-height: 500px;
@@ -169,6 +189,9 @@ header{
   align-items: center;
 }
 
+.nav_links .bloglink{
+  font-weight: bold;
+}
 .nav_item a{
   color: black;
   text-decoration: none;

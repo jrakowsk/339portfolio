@@ -1,4 +1,6 @@
-
+.nav_links .homelink {
+  font-weight: bold;
+}
 body{
   font-family: 'Raleway', sans-serif; 
   margin: 0;
